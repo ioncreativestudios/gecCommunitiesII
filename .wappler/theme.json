@@ -1,0 +1,13 @@
+{
+  "bootstrap5": {
+    "basic": {
+      "headings-font-family": "Inter:600",
+      "font-family-base": "Inter:400",
+      "font-family-sans-serif": "Times New Roman:400",
+      "font-family-monospace": "Tahoma:400",
+      "primary": "#0463CA",
+      "secondary": "#83a958"
+    },
+    "advanced": {}
+  }
+}

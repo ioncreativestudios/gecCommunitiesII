@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="dmxAppConnect/dmxAppConnect.js"></script>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="../dmxAppConnect/dmxRouting/dmxRouting.js" defer></script>
+    <script src="../js/routes.js" defer></script>
+    <link rel="stylesheet" href="bootstrap/5/css/bootstrap.min.css" />
+    <script src="capacitor.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="../dmxAppConnect/dmxBrowser/dmxBrowser.js" defer></script>
+    <link rel="stylesheet" href="fontawesome5/css/all.min.css" />
+    <script src="../dmxAppConnect/dmxBootstrap5Navigation/dmxBootstrap5Navigation.js" defer></script>
+    <link rel="stylesheet" href="../dmxAppConnect/dmxAnimateCSS/animate.min.css" />
+    <script src="../dmxAppConnect/dmxAnimateCSS/dmxAnimateCSS.js" defer></script>
+</head>
+
+<body is="dmx-app" id>
+    <script src="../bootstrap/5/js/bootstrap.bundle.min.js"></script>
+
+    <div is="dmx-browser" id="browser1"></div>
+    <div is="dmx-animate" id="animate1" hideEffect="fadeOut" visible="true" dmx-animate-enter="animate1.scrollY.offset > 100px">
+        <header id="navbar" class="fixed-top navbarBg pt-lg-2 pb-lg-2">
+            <div class="row align-items-start align-items-lg-center">
+                <div class="col-auto align-self-center navbarImage d-none d-lg-block">
+                    <img width="80" height="80" src="assets/svgLogoFiles/logoFinalWhite.svg">
+                </div>
+                <div class="col">
+                    <div class="d-flex justify-content-lg-center align-items-lg-center">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                            <div id="collapse1" class="collapse navbar-collapse">
+                                <div class="navbar-nav w-100 justify-content-start align-items-start align-items-lg-center">
+                                    <a class="nav-item nav-link navebarElements" href="#">about us</a>
+                                    <a class="nav-item nav-link navebarElements" href="#">carbon credit</a>
+                                    <i class="fas fa-globe-africa fa-3x navebarElements"></i><a class="nav-item nav-link navebarElements" href="#">the GEC mission</a><a class="nav-item nav-link navebarElements" href="#">contact us</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="d-flex col-auto justify-content-center">
+                    <button id="btn1" class="btn d-lg-none" data-bs-toggle="collapse" data-bs-target="#collapse1"><i class="fas fa-bars fa-lg style1"></i></button>
+                    <button id="btn2" class="btn btn-primary accountLogin d-none d-lg-inline-block">Button</button>
+
+                </div>
+            </div>
+        </header>
+    </div>
+
+</body>
+
+</html>

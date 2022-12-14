@@ -1,0 +1,141 @@
+.burgerMenu {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.accountLogin {
+    background-color: #0463CA !important;
+    border: none !important;
+    margin-right: 16px;
+}
+
+.navbarImage {
+    margin-left: 16px;
+}
+
+.navebarElements {
+    color: #ffffff !important;
+    margin-right: 8px;
+    margin-left: 8px;
+    
+}
+
+.style1 {
+    color: #ffffff;
+}
+
+@media (min-width: 420px) {
+
+.navbarBg {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.15)), to(#212529));
+        background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, #212529 100%);
+    }
+}
+
+@media (min-width: 350px) {
+
+.landingHero {
+        min-height: 90vh;
+        background-image: url("../assets/gecBackgrounds/rainForestRivers.jpg");
+        background-size: cover;
+        background-position: 50%;
+    }
+}
+
+.heroQuoteMain {
+    color: rgb(29, 29, 29);
+    font-size: 16px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-weight: lighter;
+    margin: 30px;
+    letter-spacing: .15em;
+}
+
+.heroQuoteSecond {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    color: rgb(29, 29, 29);
+    font-size: 12px;
+    text-align: end;
+    font-weight: bold;
+    letter-spacing: .15em;
+    margin-top: 10px;
+    margin-right: 16px;
+}
+
+@media (min-width: 350px) {
+
+.style2 {
+        min-height: 250px;
+    }
+.cardBg {
+        background-image: url("../assets/mosaicImages/iceBergOne.jpg") !important;
+        background-size: cover;
+        background-position: 50%;
+        min-height: 250px;
+    }
+.cardBg2 {
+        background-image: url("../assets/mosaicImages/callToAction.jpg");
+        background-size: cover;
+        background-position: 50%;
+        min-height: 250px;
+    }
+    
+.cardBg3 {
+        min-height: 250px;
+        background-image: url("../assets/mosaicImages/treeswithsun.jpg");
+        background-size: cover;
+        background-position: 50%;
+    }
+}
+
+.cardBg4{
+        min-height: 250px;
+        background-image: url("../assets/mosaicImages/congoKidsSized.jpg");
+        background-size: cover;
+        background-position: 50%; 
+}
+
+.card {
+    overflow-y: hidden;
+    min-height: 250px;
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.card-img-overlay {
+    width: 100%;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    -webkit-transform: translateY(calc(100% - 50px));
+    transform: translateY(calc(100% - 50px));
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background: rgba(0,0,0,0.4);
+
+}
+.card:hover .card-img-overlay {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+#cM1 {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+@media (min-width: 350px) {
+
+.mozPadding {
+        margin-top: 0px;
+        margin-bottom: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}
