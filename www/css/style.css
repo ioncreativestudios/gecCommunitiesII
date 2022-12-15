@@ -42,6 +42,16 @@
     }
 }
 
+.heroLogo {
+    margin-bottom: 50px;
+}
+
+.heroHead2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
 .heroQuoteMain {
     color: rgb(29, 29, 29);
     font-size: 16px;
@@ -137,5 +147,45 @@
         margin-bottom: 4px;
         padding-left: 4px;
         padding-right: 4px;
+    }
+}
+
+@media (min-width: 992px) {
+
+.style3 {
+        background-image: url("../assets/gecBackgrounds/rainForestRivers.jpg");
+    }
+
+.qAndA {
+        min-height: 500px;
+    }
+}
+
+.qAndA {
+    margin: 80px 10px;
+}
+
+.accPadding {
+    padding: 10px 45px;
+}
+
+.qAPadding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+
+.accSideHeader {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    }
+
+.style4 {
+        max-width: 450px;
     }
 }

@@ -18,13 +18,10 @@
 	<script src="dmxAppConnect/dmxBootstrap5Navigation/dmxBootstrap5Navigation.js" defer></script>
 	<link rel="stylesheet" href="dmxAppConnect/dmxAnimateCSS/animate.min.css" />
 	<script src="dmxAppConnect/dmxAnimateCSS/dmxAnimateCSS.js" defer></script>
+	<script src="dmxAppConnect/dmxBootstrap5Collapse/dmxBootstrap5Collapse.js" defer></script>
 </head>
 
 <body is="dmx-app" id="index">
-
-
-
-
 
 	<div is="dmx-browser" id="browser1"></div>
 	<div is="dmx-animate" id="animate1" hideEffect="fadeOut" visible="true" dmx-animate-enter="animate1.scrollY.offset > 100px">
@@ -56,11 +53,19 @@
 	</div>
 	<main>
 		<div class="row">
-			<div class="col d-flex flex-lg-column landingHero flex-column justify-content-center align-items-center">
-				<img width="120" height="120" src="assets/svgLogoFiles/logoFinalWhite.svg">
-				<h1 class="text-white">Fancy display heading</h1>
-				<h3 class="text-white">Fancy display heading</h3>
-				<p class="text-white">A nice paragraph</p>
+			<div class="col landingHero d-flex">
+				<div class="row justify-content-lg-center align-items-lg-center">
+					<div class="col d-flex flex-lg-column flex-column justify-content-center align-items-center">
+						<img width="120" height="120" src="assets/svgLogoFiles/logoFinalWhite.svg" class="heroLogo d-lg-none">
+						<h1 class="text-white d-none d-lg-block">GEC COMMUNITIES II, INC.</h1>
+						<h4 class="text-white text-capitalize heroHead2">Preventing <span style="color: #0463CA">climate change</span> while developing sustainable communities and cultures through rain forest preservation</h4>
+						<p class="text-white heroHead2">our mission is to reduce the worlds carbon footprint by preserving the rain forest. while doing this we improve the quality of life of the indigenous population of the country the rain forest is in. this is achieved by monetizing the "redd" (reduced emissions from deforestation and forest degradation) carbon credits generated from protecting the rain forest.</p>
+					</div>
+					<div class="col justify-content-lg-center align-items-lg-center d-none d-lg-flex">
+						<img width="200" height="200" src="assets/svgLogoFiles/globeWhite.svg">
+					</div>
+
+				</div>
 			</div>
 		</div>
 	</main>
@@ -118,7 +123,69 @@
 				</div>
 			</div>
 		</div>
-
+	</section>
+	<section class="qAndA">
+		<div class="row align-items-lg-center justify-content-lg-center">
+			<div class="col d-flex flex-column-reverse flex-lg-row">
+				<div class="col accPadding">
+					<div class="accordion accordion-flush" id="accordionPanelsStayOpen">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="panelsStayOpen-headingOne">
+								<button class="accordion-button accHead" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+									What is a Carbon Credit?
+								</button>
+							</h2>
+							<div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+								<div class="accordion-body">
+									<strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+									What is the Importance of a Carbon Credit?
+								</button>
+							</h2>
+							<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+								<div class="accordion-body">
+									<strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="panelsStayOpen-headingThree">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+									How to Calculate my Carbon Foot Print?
+								</button>
+							</h2>
+							<div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+								<div class="accordion-body">
+									<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="panelsStayOpen-headingFour">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+									What Sets GEC Apart?
+								</button>
+							</h2>
+							<div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+								<div class="accordion-body">
+									<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col qAPadding accSideHeader d-flex flex-lg-column align-items-lg-start justify-content-lg-center flex-column justify-content-center align-items-center">
+					<h1 class="display-4">Frequently Asked Questions</h1>
+					<p class="style4">We have compiled just a quick list of commonly asked questions that should bring clarity to our process, the GEC code of ethics, and what our mission is.</p>
+					<button id="btn4" class="btn btn-primary">Get in Touch</button>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<script src="bootstrap/5/js/bootstrap.bundle.min.js"></script>
